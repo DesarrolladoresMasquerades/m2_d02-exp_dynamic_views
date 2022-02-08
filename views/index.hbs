@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Handlebars Intro</title>
+  </head>
+  <body>
+    <h2>Hello this is the index page of {{name}} !</h2>
+    <img
+      src="/images/ironhack-logo-white.jpg"
+      alt="ironhack logo"
+      width="150"
+    />
+    <ol>
+
+      {{#if adult}}
+        <div>It's great you want to have a serer of your own</div>
+      {{else}}
+        <div>You are too young to have your own server</div>
+      {{/if}}
+
+      <li>Test LI</li>
+      {{#each hobbies}}
+        <li>
+          {{name}}
+        </li>
+      {{/each}}
+
+    </ol>
+    <a href="/about"> Go to about page </a>
+  </body>
+</html>
