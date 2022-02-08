@@ -1,0 +1,4 @@
+node_modules
+
+# env varibles don't go to github but for learning purposes we might sometimes have them available for you
+# .env
